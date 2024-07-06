@@ -26,19 +26,7 @@
 <body>
 
 <div class="button-grid">
-  <!-- Generating 25 buttons -->
-  <!-- You can adjust the number (5 x 5 = 25 buttons) as per your requirement -->
-  <!-- Replace "button.jpg" with the path to your image file -->
-  <!-- Replace "sounds.mp3" with the path to your sound file -->
-  <!-- Each button will play the same sound file "sounds.mp3" when clicked -->
-  <!-- If you want each button to play a different sound, you will need additional JavaScript -->
-  <!-- For simplicity, I'm using the same sound file for all buttons -->
-  <?php
-    for ($i = 0; $i < 25; $i++) {
-        echo '<button class="button" onclick="playSound(\'sound.mp3\')"><img src="button.jpg" alt="Button"></button>';
-    }
-  ?>
-
+  <button class="button" onclick="playSound('sound.mp3')"><img src="button.jpg" alt="Button"></button>
 </div>
 
 <script>
